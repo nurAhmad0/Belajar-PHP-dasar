@@ -1,27 +1,29 @@
-<?php
-  // 1. Membuat Variabel (Menyimpan Data)
-  $nama_siswa = "Osama";     // Tipe Data String (Teks)
-  $umur       = 20;          // Tipe Data Integer (Angka)
-  $ipk        = 3.85;        // Tipe Data Float (Desimal)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>ini dari html</p>
+    <?php  //ini juga bisa seperti ini menaruh php didalam html 5
 
-  // 2. Menampilkan Data ke Layar Browser
-  echo "<h1>Selamat Datang di Pembelajaran PHP!</h1>";
-  echo "Nama: " . $nama_siswa;
-  echo "<br>"; // Tag HTML untuk ganti baris (Enter)
-  
-  // Menggabungkan variabel langsung di dalam tanda petik dua
-  echo "Umur: $umur tahun";
-  echo "<br>";
+    // ini adalah komen
 
-  echo "IPK Semester ini: $ipk";
-
-?>
-
-
-
-
-
-<!-- catatan ============================================== -->
+    /*
+    ini komen 1
+    ini komen 2
+    ini komen 3
+    */
+    echo "Hello World dari php";
+    ?>
 
 
-<!-- tanda didalam <? (php ini isi dari kode terserah)   ?> -->
+
+    <p>ini batas yang atas</p>
+    <input type="text" name="" id="" value="lima">
+    <input type="text" name="" id="" value="">
+    <input type="text" name="" id="" value="<?php echo "lima" ?>">
+</body>
+</html>
