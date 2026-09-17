@@ -15,3 +15,13 @@
     echo constant1;
     echo "<br>";
     contohConctant();
+
+
+    //===================================catatam===================================================================
+    // Fitur / Perbedaan                   define()                                    const
+
+    // Waktu Diproses                      Runtime (Saat program jalan)                Compile-time (Saat kompilasi)  
+    // Bisa di dalam if / function?        Ya                                          Tidak
+    // Bisa di dalam Class (OOP)?          Tidak                                       Ya
+    // Nama Konstanta Dinamis?             Ya                                          Tidak
+    // Kecepatan Performa                  Sedikit lebih lambat                        Sedikit lebih cepat
