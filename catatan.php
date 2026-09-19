@@ -10,3 +10,23 @@
 
 
     ==========================================================================
+
+
+
+    $buah = ["bahlil", "apel", "pisang"];
+
+    echo implode(", ", $buah);//menampilkan isinya dipisahkan tanda koma tanpa kurung siku:
+    //hasilnya bahlil, apel, pisang
+
+
+
+    ===========================================================================
+
+
+
+    $buah = ["bahlil", "apel", "pisang"];
+
+    // Mengubah array jadi teks berformat JSON
+    echo json_encode($buah); 
+
+    
