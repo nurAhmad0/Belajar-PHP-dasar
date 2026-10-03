@@ -33,6 +33,12 @@
     $angka = -210;
     var_dump($angka);
     
+    echo '<br>';
+    $angkaGaris = 2_010;//ini hanya unutk mudah di baca jadi untuk membagi ribuan tapi nanti akan di ignore
+    var_dump($angkaGaris);//hasilnya int(2010)
+
+
+    
     
     //float
     echo '<br>';
