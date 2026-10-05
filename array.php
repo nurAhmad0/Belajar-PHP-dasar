@@ -37,19 +37,19 @@
 
 
 
-    Operasi                                             Keterangan
+//     Operasi                                             Keterangan
 
     
-$array[index]                                           Mengakses data di array pada nomor index
+// $array[index]                                           Mengakses data di array pada nomor index
 
-$array[index] = value                                   Mengubah data di array pada nomor index dengan value
-                                                        baru
+// $array[index] = value                                   Mengubah data di array pada nomor index dengan value
+//                                                         baru
 
-$array[] = value                                        Menambah data di array pada posisi paling belakang                                    
+// $array[] = value                                        Menambah data di array pada posisi paling belakang                                    
 
-unset($array[index])                                    Menghapus data di array, index otomatis hilang dari array
+// unset($array[index])                                    Menghapus data di array, index otomatis hilang dari array
 
-count($array)                                           Mengambil total data di array
+// count($array)                                           Mengambil total data di array
 
 
 

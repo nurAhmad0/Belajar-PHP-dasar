@@ -626,3 +626,60 @@ echo "Port DB: " . Database::PORT . "<br>"; // Mengakses langsung dari luar clas
     blok 'if/else', di dalam fungsi, atau butuh nama konstanta yang dinamis.
 */
 ?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+======================================================================================================
+
+
+$teks = "belajar pemrograman php";
+$hasil = strtoupper($teks);
+
+echo $hasil; // Output: BELAJAR PEMROGRAMAN PHP
+
+
+
+
+
+
+
+$teks = "SISTEM INFORMASI UNIVERSITAS JEMBER";
+$hasil = strtolower($teks);
+
+echo $hasil; // Output: sistem informasi universitas jember
+
+
+
+
+
+$teks = "halo dunia";
+echo ucfirst($teks); // Output: Halo dunia
+
+
+
+
+
+
+$teks = "osama nur mohamad";
+echo ucwords($teks); // Output: Osama Nur Mohamad
