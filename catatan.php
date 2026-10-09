@@ -683,3 +683,65 @@ echo ucfirst($teks); // Output: Halo dunia
 
 $teks = "osama nur mohamad";
 echo ucwords($teks); // Output: Osama Nur Mohamad
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========================================================================
+if (!isset($_SESSION['is_login'])) {
+    header("Location: login.php");
+    exit(); // 🛑 BERHENTI KETAT! PHP langsung menyetop eksekusi saat itu juga.
+}
+
+// Kode di bawah ini dijamin 100% aman dan tidak akan disentuh oleh server.
+hapusDataPentingDatabase();
+
+
+
+
+
+if (!isset($_SESSION['is_login'])) {
+    header("Location: login.php");
+    // Tanpa exit(), PHP AKAN TETAP MENJALANKAN KODE DI BAWAH INI sampai selesai di server!
+}
+
+// ⚠️ BAHAYA KEEAMANAN:
+// Kode rahasia atau query database di bawah ini tetap dieksekusi di server
+// sebelum browser benar-benar berpindah halaman.
+hapusDataPentingDatabase(); 
+echo "Data Rahasia Admin";
