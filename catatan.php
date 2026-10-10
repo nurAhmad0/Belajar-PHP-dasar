@@ -1,4 +1,14 @@
 <?php
+    // Menggunakan htmlspecialchars
+    $nama = htmlspecialchars($_GET['nama_get']);
+    echo "<p>Halo (GET), $nama!</p>";
+
+    // ini suapaya tidak ada ornag yeng mengisi 
+    // index.php?nama_get=<script>alert('Website Kamu Dihack!')</script>
+    
+    
+    
+    
     //gettype itu digunakan untuk mencari type data jadi pure mencari type data
     $j = 7;
     echo gettype($j); ini hasilnya integer
